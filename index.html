@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador</title>
-    //<link rel="stylesheet"href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,9 +18,9 @@
     </header>
     <main>
         <section>
-            <textarea class= "text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui" ></textarea>
+            <textarea class= "text-area" cols="30" rows="10" placeholder=" Ingrese el texto aqui " ></textarea>
             <div>
-                <h6 class= "informacion" >Solo letras minúsculas y sin acentos </h6>
+                <h6 class= "informacion" > ✱ Solo letras minúsculas y sin acentos ✱ </h6>
             </div>
             <div class="botones"> 
                 <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
@@ -33,13 +32,15 @@
             <textarea class="mensaje" cols="20" rows="10"></textarea>
             
             <div>
-                <button class="copiar"> Copiar </button>
+                <button class="copiar" onclick="copiar()"> Copiar </button>
             </div>
         </section>
     </main>
+
     <footer>
-        <p class="footer">&copy; Javier Aguilar 2023</p>
+        <p class="footer"> &copy; Javier Aguilar 2023 </p>
    </footer>
+   
     <script src="script.js"></script>
 </body>
 </html>
